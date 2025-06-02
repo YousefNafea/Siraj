@@ -1,0 +1,12 @@
+// Remove or reduce margins and padding
+.page-content {
+    margin: 0.5rem auto;   /* default is ~2rem */
+    padding: 0.5rem;
+    max-width: 900px;    /* you can also make the content narrower or wider */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
