@@ -1,4 +1,10 @@
 // Remove or reduce margins and padding
+
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 .page-content {
     margin: 0.5rem auto;   /* default is ~2rem */
     padding: 0.5rem;
