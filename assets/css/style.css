@@ -11,14 +11,28 @@ h1, h2 {
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 20px auto;
 }
 
-th, td {
+th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* center table headers */
+    background-color: #f9f9f9;
+}
+
+td {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
+    vertical-align: top;
 }
+
+td.transcript {
+    direction: rtl; /* set right-to-left for Arabic text */
+    text-align: right;
+}
+
 
 audio {
     width: 200px;
