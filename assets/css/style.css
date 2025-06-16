@@ -175,8 +175,9 @@ h3 {
 }
 
 .table-caption {
+    width: 80%;
+    margin: 8px auto 0 auto;
     text-align: center;
     font-size: 0.95rem;
-    margin-top: 8px;
     font-style: italic;
 }
