@@ -123,3 +123,31 @@ audio {
     font-size: 0.7em;
     vertical-align: super;
 }
+
+.paper-button {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.paper-button a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.paper-button a:hover {
+    background-color: #333333;
+}
+
+.arxiv-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
