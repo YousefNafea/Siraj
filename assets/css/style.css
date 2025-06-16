@@ -75,7 +75,7 @@ audio {
 }
 
 .title-image {
-    width: 80px; /* adjust size as you want */
+    width: 55px; /* adjust size as you want */
     height: auto;
 }
 
@@ -87,7 +87,39 @@ audio {
 .centered-figure img {
     max-width: 80%;
     height: auto;
-    border: 1px solid #ddd; /* optional: add border */
     padding: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional: add slight shadow */
+}
+
+.figure-caption {
+    font-size: 0.95rem;
+    color: #555;
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    font-family: "Inter", system-ui, sans-serif; /* or leave blank for later override */
+}
+
+.paper-info {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.paper-info strong {
+    font-weight: 600;
+    color: #222;
+}
+
+.paper-info .authors,
+.paper-info .affiliations,
+.paper-info .equal-contribution,
+.paper-info .abstract {
+    margin-bottom: 15px;
+}
+
+.paper-info sup {
+    font-size: 0.7em;
+    vertical-align: super;
 }
