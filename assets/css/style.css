@@ -151,3 +151,7 @@ audio {
     height: 24px;
     margin-right: 10px;
 }
+
+h3 {
+    text-align: center;
+}
