@@ -164,7 +164,7 @@ h3 {
     text-align: center;
 }
 
-.eval-table th, .mos-table td {
+.eval-table th, .eval-table td {
     border: 1px solid #ddd;
     padding: 10px;
 }
