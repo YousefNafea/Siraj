@@ -338,7 +338,7 @@
 </div>
 <h3 class="section-title">Manual Evaluation Results (MOS)</h3>
 
-<table class="mos-table">
+<table class="eval-table">
     <tr>
         <th></th>
         <th>XTTS</th>
@@ -414,6 +414,85 @@
 </table>
 
 <div class="table-caption"> Results of manual evaluation (MOS) on plain text generation using all models in our study recorded on a scale from one to five. XTTS, fishspeech, and MMS are models fine-tuned on our training set, while the rest of the models are used out of the box.</div>
+
+<h3 class="section-title">ASR Evaluation Results (WER/CER)</h3>
+
+<table class="eval-table">
+    <tr>
+        <th></th>
+        <th>Gold</th>
+        <th>XTTS</th>
+        <th>Fishspeech</th>
+        <th>MMS</th>
+        <th>ElevenLabs</th>
+        <th>Speaktor</th>
+        <th>ArTST</th>
+    </tr>
+    <tr>
+        <td><strong>Egypt</strong></td>
+        <td>25/06</td>
+        <td>35/10</td>
+        <td>27/08</td>
+        <td>60/22</td>
+        <td style="color:green;">21/05</td>
+        <td>40/25</td>
+        <td>80/60</td>
+    </tr>
+    <tr>
+        <td><strong>Syria</strong></td>
+        <td>36/11</td>
+        <td>43/15</td>
+        <td>34/12</td>
+        <td>161/129</td>
+        <td style="color:green;">20/05</td>
+        <td>38/17</td>
+        <td>71/45</td>
+    </tr>
+    <tr>
+        <td><strong>Saudi</strong></td>
+        <td>28/09</td>
+        <td>37/11</td>
+        <td>33/11</td>
+        <td>65/25</td>
+        <td style="color:green;">25/06</td>
+        <td>32/08</td>
+        <td>68/47</td>
+    </tr>
+    <tr>
+        <td><strong>UAE</strong></td>
+        <td>32/09</td>
+        <td>41/15</td>
+        <td>28/10</td>
+        <td>93/54</td>
+        <td style="color:green;">20/05</td>
+        <td>31/13</td>
+        <td>55/34</td>
+    </tr>
+    <tr>
+        <td><strong>Morocco</strong></td>
+        <td>36/10</td>
+        <td>42/13</td>
+        <td>68/23</td>
+        <td>119/83</td>
+        <td>49/14</td>
+        <td>52/28</td>
+        <td>84/52</td>
+    </tr>
+    <tr>
+        <td><strong>Jordan</strong></td>
+        <td>55/21</td>
+        <td>57/30</td>
+        <td>53/26</td>
+        <td>101/69</td>
+        <td style="color:green;">38/08</td>
+        <td>42/15</td>
+        <td>84/67</td>
+    </tr>
+</table>
+
+<div class="table-caption">
+    Results for all models on plain text generation using ASR models in WER/CER format. Gold is the original audio from the test set.
+</div>
 
 
 </body>

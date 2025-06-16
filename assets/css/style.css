@@ -156,7 +156,7 @@ h3 {
     text-align: center;
 }
 
-.mos-table {
+.eval-table {
     border-collapse: collapse;
     width: 80%;
     margin: 20px auto;
@@ -164,12 +164,12 @@ h3 {
     text-align: center;
 }
 
-.mos-table th, .mos-table td {
+.eval-table th, .mos-table td {
     border: 1px solid #ddd;
     padding: 10px;
 }
 
-.mos-table th {
+.eval-table th {
     background-color: #f9f9f9;
     font-weight: 600;
 }
