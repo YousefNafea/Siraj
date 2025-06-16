@@ -65,3 +65,29 @@ audio {
     width: 100%;
     max-width: 200px;
 }
+
+.title-with-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* space between image and text */
+    margin-bottom: 10px;
+}
+
+.title-image {
+    width: 80px; /* adjust size as you want */
+    height: auto;
+}
+
+.centered-figure {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.centered-figure img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ddd; /* optional: add border */
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional: add slight shadow */
+}
