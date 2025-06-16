@@ -81,20 +81,20 @@ audio {
 
 .centered-figure {
     text-align: center;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .centered-figure img {
     max-width: 80%;
     height: auto;
-    padding: 5px;
+    padding: 3px;
 }
 
 .figure-caption {
     font-size: 0.95rem;
     color: #555;
     text-align: center;
-    margin-top: 8px;
+    margin-top: 3px;
     font-style: italic;
     font-family: "Inter", system-ui, sans-serif; /* or leave blank for later override */
 }
