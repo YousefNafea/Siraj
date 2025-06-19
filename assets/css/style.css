@@ -43,7 +43,7 @@ table {
 
 th {
     border: 1px solid #e0e0e0;
-    background-color: #f9f9f9;
+    background-color: #333333;
     padding: 12px;
     text-align: center;
     font-weight: 600;
@@ -54,6 +54,10 @@ td {
     padding: 12px;
     vertical-align: top;
     text-align: center;
+}
+
+table tr:hover {
+    background-color: #f0f0f0;
 }
 
 td.transcript {
